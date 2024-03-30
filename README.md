@@ -1,1 +1,8 @@
-# alu-startup_launch
+Achievers' Board takes its stucture from Kanban Boards and it's a user-friendly web application for the reliable management of personal tasks and projects.
+This tool visualizes tasks/projects on visually-appealing cards on a web board, allowing users to move tasks through different stages: ToDo, In Progress, Done
+Users can easily prioritize, track progress and manage workflow using this intuitive interface
+Programming languages used to achieve this include HTML, CSS, and Javascript
+The HTML file includes elements such as h1, div, input, and button to create a web application called Achievers' Board. The div elements with the class "column" represent different stages of the user's tasks: "To Do," "In Progress," and "Done". The input and button elements allow for adding new tasks to the "To Do" column.
+The CSS file provides styling for the Achievers' Board web application. It includes styling for the body, container, columns representing task stages, and individual tasks. The styling includes aspects such as font, background image, borders, padding, and cursor behavior for tasks.
+The JavaScript function adds a new task to a task list when the user clicks a button. It retrieves the task input, creates a new div element for the task, assigns a class and content to the task, and appends it to the 'todo' element. If the input is empty or contains only whitespace, it does not add the task.
+We will also encooperate the use of Docker as a containerization platform

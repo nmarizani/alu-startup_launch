@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievers' Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Achievers' Board</h1>
+
+<div class="container">
+    <div class="column" id="todo" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <h2>To Do</h2>
+    </div>
+    <div class="column" id="inprogress" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <h2>In Progress</h2>
+    </div>
+    <div class="column" id="done" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <h2>Done</h2>
+    </div>
+</div>
+
+<div>
+    <h2>Add New Task</h2>
+    <input type="text" id="taskInput">
+    <button onclick="addTask()">Add Task</button>
+</div>
+
+<div id="taskList">
+    <!-- Task items will be dynamically added here -->
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
